@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".singhTownHouse">
+
+    <TextView
+        android:id="@+id/ApartmentTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="List of Town Houses"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        app:srcCompat="@drawable/th1"
+        android:contentDescription="TODO" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Peter Drive" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/th2" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Downtown" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/th3"
+        />
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scarborough Town centre"
+        android:onClick="onCheckboxClicked"/>
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNext"
+        android:text="Next" />
+
+    <!--    <GridView-->
+    <!--        android:id="@+id/ApartmentGV"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:columnWidth="90dp"-->
+    <!--        android:horizontalSpacing="10dp"-->
+    <!--        android:numColumns="2" />-->
+
+</LinearLayout>

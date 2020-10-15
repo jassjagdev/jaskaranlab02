@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singhCondominiumApartment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ApartmentTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="List of Condominum Aartments"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="118dp"
+        android:layout_height="98dp"
+        app:srcCompat="@drawable/sd1" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Ranjit Avenue" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/sd2" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Green Avenue" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/sd3"
+        />
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burlington Avenue"
+        android:onClick="onCheckboxClicked"/>
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNext"
+        android:text="Next" />
+
+</LinearLayout>

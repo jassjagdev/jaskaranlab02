@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JaskaranLab02</string>
+
+    <string name="message"> Select your program in the menu</string>
+    <!--    <string name="set_y">SET</string>-->
+    <!--    <string name="game_programming">Game - Programming</string>-->
+    <!--    <string name="hit">HIT</string>-->
+
+    <string-array name="address_names">
+        <item>Canlish Road</item>
+        <item>10 Guildwood Parkway</item>
+        <item>1041 Birchmount Road</item>
+        <item>10th Street</item>
+        <item>110 Town Haven Place</item>
+        <item>1185 Warden Avenue</item>
+        <item>11th Street</item>
+        <item>12th Street</item>
+        <item>1375 Danforth Road</item>
+        <item>13th Street</item>
+        <item>14th Street</item>
+        <item>15 Canlish Road</item>
+        <item>15 Guildwood Parkway</item>
+        <item>15th Street</item>
+        <item>16th Street</item>
+    </string-array>
+</resources>

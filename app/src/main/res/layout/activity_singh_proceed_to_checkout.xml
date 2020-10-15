@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singhProceedToCheckout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="261dp"
+        android:layout_height="61dp"
+        android:text="Select payment Option"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <RadioGroup
+        android:id="@+id/rbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="262dp"
+        android:layout_height="61dp"
+        android:text="Credit"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="262dp"
+        android:layout_height="65dp"
+        android:text="Cash"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="264dp"
+        android:layout_height="65dp"
+        android:text="Debit"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="162dp" />
+    </RadioGroup>
+
+
+</LinearLayout>
